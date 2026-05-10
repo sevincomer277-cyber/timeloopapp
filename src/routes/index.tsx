@@ -1752,26 +1752,37 @@ function Home() {
       <Footer />
       {showModal && <CreateCapsuleModal onClose={closeModal} />}
     </>
+import { useEffect } from "react"
+
 export default function Home() {
+  useEffect(() => {
+    try {
+      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+    } catch (e) {}
+  }, [])
+
   return (
-    <div style={{ padding: 20 }}>
+    <div>
+      <h1>TimeCapsule</h1>
+      import { useEffect } from "react"
+
+export default function Home() {
+  useEffect(() => {
+    try {
+      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+    } catch (e) {}
+  }, [])
+
+  return (
+    <div>
       <h1>TimeCapsule</h1>
 
-      <p>Future memory app</p>
-
-      {/* ADS */}
+      {/* REKLAM */}
       <ins
         className="adsbygoogle"
-        style={{ display: "block" }}
+        style={{ display: "inline-block", width: 728, height: 90 }}
         data-ad-client="ca-pub-5934642727917171"
-        data-ad-slot="XXXXXXX"
-        data-ad-format="auto"
-      />
-
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `(adsbygoogle = window.adsbygoogle || []).push({});`,
-        }}
+        data-ad-slot="4361942093"
       />
     </div>
   )
