@@ -31,6 +31,9 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5934642727917171"
+     crossorigin="anonymous"></script>
       </head>
       <body>
         {children}
