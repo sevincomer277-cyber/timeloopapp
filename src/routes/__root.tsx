@@ -9,6 +9,9 @@ export const Route = createRootRoute({
       { title: 'TimeCapsule — Send Memories Into The Future' },
       { name: 'description', content: 'Create digital time capsules filled with messages, photos, and videos that unlock in the future. Send memories to your future self or someone you love.' },
       { name: 'theme-color', content: '#06060e' },
+
+      // ✅ BUNU EKLEDİM (DOĞRU YER)
+      { name: 'google-adsense-account', content: 'ca-pub-5934642727917171' },
     ],
     links: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -31,9 +34,14 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5934642727917171"
-     crossorigin="anonymous"></script>
+
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5934642727917171"
+          crossOrigin="anonymous"
+        />
       </head>
+
       <body>
         {children}
         <Scripts />
