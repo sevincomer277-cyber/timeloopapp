@@ -1752,5 +1752,27 @@ function Home() {
       <Footer />
       {showModal && <CreateCapsuleModal onClose={closeModal} />}
     </>
+export default function Home() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>TimeCapsule</h1>
+
+      <p>Future memory app</p>
+
+      {/* ADS */}
+      <ins
+        className="adsbygoogle"
+        style={{ display: "block" }}
+        data-ad-client="ca-pub-5934642727917171"
+        data-ad-slot="XXXXXXX"
+        data-ad-format="auto"
+      />
+
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(adsbygoogle = window.adsbygoogle || []).push({});`,
+        }}
+      />
+    </div>
   )
 }
