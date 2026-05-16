@@ -902,7 +902,7 @@ function CountdownShowcaseSection() {
         </h2>
 
         <p style={{ color: 'var(--text-secondary)', maxWidth: 480, margin: '0 auto 3rem', fontSize: '0.95rem', lineHeight: 1.7 }}>
-          Sealed by 12,847 contributors from 94 countries. Opening January 1st, 2100 — a time capsule for the next century.
+          Sealed by 16.899 contributors from 112 countries. Opening January 1st, 2030 — a time capsule for the next century.
         </p>
 
         <div
